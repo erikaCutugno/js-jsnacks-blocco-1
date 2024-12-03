@@ -4,7 +4,7 @@ const userName = prompt("Inserisci il tuo nome")
 let isNameFind = false;
 
 for (let i = 0; i < party.length; i++){
-    if(party[i] === userName){
+    if(party[i].toLowerCase === userName.toLowerCase){
         isNameFind= true
     }
 }
