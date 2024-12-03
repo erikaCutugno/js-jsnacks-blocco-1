@@ -3,6 +3,8 @@ const usersecond = Number(prompt("Inserisci un numero"))
 
 if(userfirst > usersecond) {
     alert(`Il maggiore è ${userfirst}`)
-} else {
+} else if (userfirst < usersecond){
     alert(`Il maggiore è ${usersecond}`)
+} else {
+    alert("I numeri sono uguali")
 }
